@@ -1,8 +1,18 @@
-# TaskbarToggle v1.0.2
+# TaskbarToggle
 
-Windows 任务栏显示 / 隐藏切换工具，支持自定义快捷键和开机启动。当前版本面向 Windows 11 原生任务栏、单显示器环境；成品为 x64 程序。
+Windows 任务栏显示 / 隐藏切换工具，支持自定义快捷键和开机启动。v1.0.2 稳定版面向 Windows 11 原生任务栏、单显示器环境；成品为 x64 程序。
 
-## 下载与使用
+## v1.0.3 预览版
+
+**v1.0.3 已加入多显示器适配，但尚未经过实际多显示器环境测试，当前作为预览版本提供。** 多屏任务栏切换、不同缩放比例和显示器拔插等场景仍需实际验证。
+
+[下载 v1.0.3 预览包（源码与成品 ZIP）](https://github.com/alyhno0717/TaskbarToggle/raw/refs/heads/main/previews/v1.0.3/TaskbarToggle-v1.0.3.zip)
+
+解压后运行 `dist/TaskbarToggle-v1.0.3.exe`。使用前请从托盘退出旧版本。
+
+v1.0.2 稳定版面向单显示器环境，下载与编译说明见下文。
+
+## v1.0.2 稳定版下载与使用
 
 [下载 TaskbarToggle-v1.0.2.exe](https://github.com/alyhno0717/TaskbarToggle/raw/refs/heads/main/TaskbarToggle-v1.0.2.exe)
 
@@ -10,10 +20,11 @@ Windows 任务栏显示 / 隐藏切换工具，支持自定义快捷键和开机
 
 ## 仓库内容
 
+- `previews/v1.0.3/TaskbarToggle-v1.0.3.zip`：v1.0.3 预览包，包含源码与成品。
 - `TaskbarToggle-v1.0.2.exe`：原始发布成品。
 - `TaskbarToggle-v1.0.2源码/`：C++ 源码、图标、资源文件、编译脚本和测试文件。
 
-保留本地发布包的目录结构及原始文件内容。
+v1.0.2 保留本地发布包的目录结构及原始文件内容；v1.0.3 以原始 ZIP 预览包提供。
 
 ## 编译
 
